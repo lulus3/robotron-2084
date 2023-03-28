@@ -297,7 +297,7 @@ class Game:
 
     def game_over(self, clock: pygame.time.Clock):
         loop = True
-        text = "VOCE PERDEU OTARIO"
+        text = "YOU LOSE"
         font = pygame.font.Font("assets/Minecraft.ttf", 70)
         game_over_text = RainbowText(Config.screen, text, font, Config.screen_w/2 - 400, Config.screen_h/2, 5)
         while loop:
